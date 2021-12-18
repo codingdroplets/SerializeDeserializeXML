@@ -14,11 +14,17 @@ On the other end, deserialization reconstructs the object from the stream. XML s
 The XmlSerializer object helps us to serialize and deserialize an objects or a list of objects into and from XML documents. Also, the XmlSerializer enables us to control how objects are encoded into XML.
 
 Topics covered in the video:
+
 1 - Serializing XML String/XML File from a C# Object [C# XML Serialize / XML Serialize C#]
+
 2 - Deserializing a C# Object from a XML String/XML File [C# XML Deserialize / XML Deserialize C#]
+
 3 - Serializing XML String/XML File from a list of objects [List to XML C#]
+
 4 - Deserializing list of objects from a XML String/XML File [XML to List C#]
+
 5 - Attributes that can be used for XML Serialization and Deserialization
+
 
 Attributes can be used to control the XML serialization of an object or to create an alternate XML stream from the same set of classes.
 Using the XmlSerializer, you can generate more than one XML stream with the same set of classes. You might want to do this because two different XML Web services require the same basic information, with only slight differences.
